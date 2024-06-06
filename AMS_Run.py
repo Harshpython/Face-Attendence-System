@@ -1,3 +1,5 @@
+# importing all the required liberaries
+
 import tkinter as tk
 from tkinter import *
 import cv2
