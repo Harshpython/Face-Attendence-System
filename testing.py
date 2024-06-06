@@ -1,3 +1,5 @@
+# importing all the required liberaries
+
 import cv2
 import numpy as np
 
