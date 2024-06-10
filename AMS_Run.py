@@ -25,7 +25,7 @@ window.configure(background='grey80')
 # GUI for manually fill attendance
 
 
-def manually_fill():
+def manually_fill():# tkinter module
     global sb
     sb = tk.Tk()
     # sb.iconbitmap('AMS.ico')
