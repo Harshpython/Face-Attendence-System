@@ -10,7 +10,8 @@ recognizer = cv2.face.LBPHFaceRecognizer_create()
 # Create face detector
 detector = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
-def getImagesAndLabels(path):
+def getImagesAndLabels(path):# for images path
+    
     # Get the path of all the files in the folder
     imagePaths = [os.path.join(path, f) for f in os.listdir(path)]
     # Create empty lists to store faces and IDs
