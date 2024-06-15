@@ -1,4 +1,4 @@
-# importing all the liberaries
+#importing all the liberaries
 import cv2
 import os
 import numpy as np
