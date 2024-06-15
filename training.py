@@ -2,7 +2,7 @@
 import cv2
 import os
 import numpy as np
-from PIL import Image
+from PIL import Image 
 
 # Create LBPH face recognizer
 recognizer = cv2.face.LBPHFaceRecognizer_create()
